@@ -8,6 +8,14 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println(new App().welcome("Qu Xingming") );
+        System.out.println(new App().welcome("Wu Zhenyao") );
+        System.out.println(new App().welcome("Wu Xinyi") );
+        System.out.println(new App().welcome("Hu Meng") );
+    }
+    
+    public String welcome(String name)
+    {
+    	return "hello, " ;
     }
 }
